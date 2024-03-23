@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App 
+{
+  width: 100vw; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+} 
+
+.container 
+{
+  width: 100vw;  
+  display: flex;
+  flex-direction: row; 
+  height: 100%; 
+  /* gap: 20px;  */
+  gap: 20px;
+} 
+.Menu 
+{
+  width:30% ; 
+  background-color: aqua; 
+  border: 1px solid grey; 
+  border-radius: 7px;  
+  margin-left: 1vw;
+
+}
+.View 
+{
+  width:70% ; 
+  background-color: aqua; 
+  border: 1px solid grey; 
+  border-radius: 7px;
+  margin-right: 1vw;
+
+}
+.header{
+  background-color: #0a0a0a;
+}
